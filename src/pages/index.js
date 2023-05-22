@@ -1,12 +1,16 @@
 import React from "react";
+import "../App.css";
 
-const Home = () => {
+function Home() {
   return (
-    <div>
-      <h1>Home</h1>
-      <p>lorem</p>
-    </div>
+    <html className="homepage">
+      <header>Home</header>
+      <body>
+        <h1>Home</h1>
+        <p>Hi there! My name is Aaron and I am </p>
+      </body>
+    </html>
   );
-};
+}
 
 export default Home;
