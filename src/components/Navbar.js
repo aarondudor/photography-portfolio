@@ -19,8 +19,8 @@ function Navbar() {
       <div className="leftSide">
         <Link to="/">
           <img src={Logo} />
+          <h1>AARON DUDOR</h1>
         </Link>
-        <h1>AARON DUDOR</h1>
       </div>
       <div className="rightSide">
         <ul>

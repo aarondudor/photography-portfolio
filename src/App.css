@@ -12,7 +12,7 @@ body {
 }
 
 .homepage {
-  background: url("./images/DSC_0427.JPG") no-repeat center center fixed;
+  background: url("./assets/DSC_0427.JPG") no-repeat center center fixed;
   background-size: cover;
   margin: 0;
   padding: 0;
@@ -37,7 +37,6 @@ body {
 }
 
 .navbar .leftSide h1 {
-  padding-left: 1.75rem;
   letter-spacing: 0.1rem;
   font-size: 2rem;
 }
@@ -73,11 +72,11 @@ body {
 }
 
 .navbar li a:hover {
-  background-color: #aaa;
+  color: #aaa;
 }
 
 .navbar li:hover:not(.dropdown, .site-title) a {
-  background-color: #aaa;
+  color: #aaa;
 }
 
 .dropdown {
