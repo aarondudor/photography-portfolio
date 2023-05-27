@@ -18,8 +18,10 @@ function Navbar() {
     <nav className="navbar">
       <div className="leftSide">
         <Link to="/">
-          <img src={Logo} />
-          <h1>AARON DUDOR</h1>
+          <h1>
+            <img src={Logo} />
+            AARON DUDOR
+          </h1>
         </Link>
       </div>
       <div className="rightSide">

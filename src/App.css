@@ -31,24 +31,27 @@ body {
 
 .navbar .leftSide {
   padding-left: 1rem;
-  display: inline-flex;
-  align-items: center;
   color: white;
 }
 
 .navbar .leftSide h1 {
+  align-items: center;
   letter-spacing: 0.1rem;
   font-size: 2rem;
 }
 
-.navbar .rightSide {
-  padding-right: 1rem;
+.navbar .leftSide h1 img {
+  max-width: 6.5rem;
+  padding: 0.75rem;
+  float: left;
 }
 
-.navbar img {
-  max-width: 6.5rem;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+h1 {
+  display: inline;
+}
+
+.navbar .rightSide {
+  padding-right: 1rem;
 }
 
 .navbar a {
@@ -75,7 +78,7 @@ body {
   color: #aaa;
 }
 
-.navbar li:hover:not(.dropdown, .site-title) a {
+.navbar li:hover:not(.dropdown) a {
   color: #aaa;
 }
 
